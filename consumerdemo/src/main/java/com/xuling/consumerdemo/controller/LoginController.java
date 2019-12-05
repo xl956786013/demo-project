@@ -11,6 +11,7 @@ public class LoginController {
     @Autowired
     private LoginService loginService;
 
+    // http://localhost:8763/login
     @RequestMapping("/login")
     public User login(User user){
         user.setId(66L);
